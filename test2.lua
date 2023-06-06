@@ -18,7 +18,7 @@ local Tabs = {
     Settings = Window:AddTab('UI Settings'),
     Credits = Window:AddTab('Credits'),
 }
-local LeftGroupBox0 = Tabs.Chapter2:AddRightGroupbox('NOTE')
+local LeftGroupBox13 Tabs.Chapter2:AddRightGroupbox('NOTE')
 LeftGroupBox13:AddLabel('Please beware, the highlighting')
 LeftGroupBox13:AddLabel('objects system also highlights')
 LeftGroupBox13:AddLabel('all players in game. This is')
