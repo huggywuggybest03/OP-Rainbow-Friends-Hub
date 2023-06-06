@@ -18,12 +18,12 @@ local Tabs = {
     Settings = Window:AddTab('UI Settings'),
     Credits = Window:AddTab('Credits'),
 }
-local LeftGroupBox13 = Tabs.Chapter2:AddRightGroupbox('NOTE')
-LeftGroupBox13:AddLabel('Please beware, the highlighting')
-LeftGroupBox13:AddLabel('objects system also highlights')
-LeftGroupBox13:AddLabel('all players in game. This is')
-LeftGroupBox13:AddLabel('currently under work. It is')
-LeftGroupBox13:AddLabel('still available to use though.')
+local LeftGroupBox01 = Tabs.Chapter2:AddLeftGroupbox('NOTE')
+LeftGroupBox01:AddLabel('Please beware, the highlighting')
+LeftGroupBox01:AddLabel('objects system also highlights')
+LeftGroupBox01:AddLabel('all players in game. This is')
+LeftGroupBox01:AddLabel('currently under work. It is')
+LeftGroupBox01:AddLabel('still available to use though.')
 
 local LeftGroupBox0 = Tabs.Settings:AddLeftGroupbox('UI Settings')
 
