@@ -18,6 +18,12 @@ local Tabs = {
     Settings = Window:AddTab('UI Settings'),
     Credits = Window:AddTab('Credits'),
 }
+local LeftGroupBox0 = Tabs.Chapter2:AddRightGroupbox('NOTE')
+LeftGroupBox13:AddLabel('Please beware, the highlighting')
+LeftGroupBox13:AddLabel('objects system also highlights')
+LeftGroupBox13:AddLabel('all players in game. This is')
+LeftGroupBox13:AddLabel('currently under work. It is')
+LeftGroupBox13:AddLabel('still available to use though.')
 
 local LeftGroupBox0 = Tabs.Settings:AddLeftGroupbox('UI Settings')
 
@@ -30,7 +36,7 @@ local MyButton1 = LeftGroupBox0:AddButton({
     Tooltip = 'Unloads the whole GUI'
 })
 
-LeftGroupBox0:AddLabel('Ignore this, use colorpicker.'):AddColorPicker('ColorPicker', {
+LeftGroupBox0:AddLabel('Ignore this, use themes.'):AddColorPicker('ColorPicker', {
     Default = Color3.new(0, 1, 0), -- Bright green
     Title = 'Some color', -- Optional. Allows you to have a custom color picker title (when you open it)
     Transparency = 0, -- Optional. Enables transparency changing for this color picker (leave as nil to disable)
