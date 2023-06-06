@@ -5,7 +5,7 @@ local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))
 local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
 
 local Window = Library:CreateWindow({
-    Title = 'Rainbow Friends Hub',
+    Title = 'Rainbow Friends Hub V1',
     Center = true,
     AutoShow = true,
     TabPadding = 8,
@@ -20,7 +20,7 @@ local Tabs = {
 }
 local LeftGroupBox01 = Tabs.Chapter2:AddLeftGroupbox('NOTE')
 LeftGroupBox01:AddLabel('Please beware, the highlighting')
-LeftGroupBox01:AddLabel('objects system also highlights')
+LeftGroupBox01:AddLabel('items system also highlights')
 LeftGroupBox01:AddLabel('all players in game. This is')
 LeftGroupBox01:AddLabel('currently under work. It is')
 LeftGroupBox01:AddLabel('still available to use though.')
