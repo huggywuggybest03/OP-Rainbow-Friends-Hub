@@ -24,6 +24,7 @@ LeftGroupBox01:AddLabel('objects system also highlights')
 LeftGroupBox01:AddLabel('all players in game. This is')
 LeftGroupBox01:AddLabel('currently under work. It is')
 LeftGroupBox01:AddLabel('still available to use though.')
+LeftGroupBox01:AddLabel('-------------------------->')
 
 local LeftGroupBox0 = Tabs.Settings:AddLeftGroupbox('UI Settings')
 
